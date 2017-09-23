@@ -1,4 +1,4 @@
-FROM 192.168.1.3:5000/tongiot/php-fpm
+FROM wb253/php-fpm
 MAINTAINER wangbin <wangbin253@gmail.com>
 
 RUN export NGX_VER="1.10.3" && \
